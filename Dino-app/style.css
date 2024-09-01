@@ -15,8 +15,11 @@
     background-image: url('images/dino.png') ;
     background-color: black;
     position: relative;
-    top: 150px;
-    animation: jump 500ms infinite;
+    top: 150px; 
+    
+}
+.animate{
+    animation: jump 500ms;
 }
 @keyframes jump {
     0%{top: 150px;}
